@@ -11,7 +11,7 @@
 
 clear
 omega=1E9; %simulation frequency in Hz
-stepCount=1000000; %number of steps in simulation
+stepCount=500000; %number of steps in simulation
 dt=1*10^-15; %time step of simulation in seconds
 f=(2*pi*omega*dt); %conversion between linear and angular frequency
 
